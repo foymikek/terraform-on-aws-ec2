@@ -13,14 +13,12 @@ terraform {
 # Provider Block
 provider "aws" {
   region  = "us-east-1"
-  access_key = "value"
-  secret_key = "value"
 }
 
-resource "aws_instance" "ec2demo" {
-  ami           = "value"
-  instance_type = "value"
-}
+# resource "aws_instance" "ec2demo" {
+#   ami           = "value"
+#   instance_type = "value"
+# }
 
 
 /*
