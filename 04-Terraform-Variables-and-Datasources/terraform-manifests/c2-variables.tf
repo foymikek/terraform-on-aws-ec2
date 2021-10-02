@@ -8,7 +8,7 @@ variable "aws_region" {
 
 # AWS EC2 Instance Type
 variable "instance_type" {
-   description = "EC2 Instance Type"
+  description = "EC2 Instance Type"
   type = string
   default = "t3.micro"
   sensitive = false 
