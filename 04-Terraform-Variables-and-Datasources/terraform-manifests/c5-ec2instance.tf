@@ -10,5 +10,5 @@ resource "aws_instance" "myec2vm" {
   key_name = var.variable_keypair
   tags = {
     "Name" = "EC2 Demo"
-  }
+  } 
 }
